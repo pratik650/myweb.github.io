@@ -1,0 +1,56 @@
+html{
+  font-size: 62.5%;
+}
+body{
+  background-color: #000;
+}
+
+video{
+width: 100% ;
+height: auto;
+max-width: 100%;
+max-height: fit-content;
+}
+
+#Image_1{
+    position:absolute;
+    width:57rem;
+    display: block;
+    top: .5rem;
+    left: 38rem;
+    
+}
+
+#myBtn {
+  position: absolute;
+  top: 38rem;
+  left: 58rem;
+  width: 20rem;
+  font-size: 1.8rem;
+  padding: 1 rem;
+  border: none;
+  background: #000;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: rgb(221, 221, 221);
+  color: black;
+}
+
+@media(max-width:998px){
+html{
+  font-size: 55%;
+}
+}
+@media(max-width:768px){
+  html{
+    font-size: 45%;
+  }
+  }
+@media (max-width:426px){
+  html{
+    font-size:35%;
+  }
+}
